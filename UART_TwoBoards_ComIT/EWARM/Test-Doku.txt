@@ -1,0 +1,17 @@
+Test-Doku
+
+Desoutter_MCU Board REV1.2
+
+21.08.2017 alle LEDs können an bzw ausgeschalten werden
+22.08.2017 LEDs, NTC und User-Button Interrupt funktionieren
+24.08.2017 DEBUGUsart funktioniert Tx-Interrupt-Mode und Rx-Interrupt-Mode
+           RCC_MCO1SOURCE_SYSCLK -> laut Oszi 48,07MHz
+           Timer-Test bei 208,25ms (PERIOD_VALUE=500-1, PULSE_VALUE=PERIOD_VALUE/2 zeigt Oszi 209ms
+           Timer-Test bei 104,125ms (PERIOD_VALUE=250, PULSE_VALUE=PERIOD_VALUE/2 zeigt Oszi 104,5ms
+25.08.2017 Reset funzt
+25.08.2017 über I2C-Scanner wird das EEPROM auf Adresse 0xA0 gefunden
+04.09.2017 EEPROM lesen und schreiben über DMA funzt
+
+ToDo
+OWUart
+

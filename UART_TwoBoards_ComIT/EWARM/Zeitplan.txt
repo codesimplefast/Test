@@ -1,0 +1,16 @@
+Zeitplan
+Set der Dienstreise nach Frankreich nur theoretische Ansätze verfolgt und 
+Desoutter Stack auf STMF103RB portiert.
+
+4.08.2017
+Erste Version des Eval Boards bekommen, es fehlern Stützkondensatoren.
+Alle LEDs lassen sich an bzw. abschalten.
+Das Board stürzt immer ab bei Umschaltung von internem Clock zu ext. Clock.
+BOOT0-Pin war noch floated.
+
+21.08.2017 REV1.2, BOOT0-Pin wurde von mir mit 10kOhm auf GND gelegt,
+LEDs funktionieren, DEBUG-UART kann auch senden.
+
+22.08.2017 Dienstreise nach Gütersloh (Miele)
+
+04.09.2017 EEPROM lesen und schreiben über DMA funzt
